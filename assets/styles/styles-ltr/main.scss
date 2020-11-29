@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import 'abstracts/variables', 'abstracts/functions', 'abstracts/mixins';
+
+// 2. Vendors
+// @import
+//   'vendors/normalize';
+
+// 3. Base stuff
+@import 'base/base', 'base/fonts', 'base/typography', 'base/helpers';
+
+// 4. Layout-related sections
+@import 'layout/header', 'layout/footer', 'layout/navbar', 'layout/breadcrumb';
+
+// 5. Components
+@import 'components/button';
+@import 'components/arrow';
+@import 'components/paginator';
+@import 'components/sliderThumbnail';
+    //store
+@import 'components/mainCategories';
+@import 'components/offer';
+@import 'components/offerSlider';
+@import 'components/vendor';
+@import 'components//product';
+@import 'components//storeVendor';
+@import 'components/reviews';
+    //restaurants
+@import 'components/restaurant';
+    //partner
+@import 'components/partnerList';
+    //Doctor
+@import 'components/medicalCard';
+    //realestate
+@import 'components/realestate';
+    //professions
+@import 'components/profession';
+
+
+// 6. Page-specific styles
+@import 'pages/home';
+@import 'pages/services';
+@import 'pages/store';
+@import 'pages/product';
+@import 'pages/vendor';
+@import 'pages/restaurants';
+@import 'pages/singleRestaurant';
+@import 'pages/medicalServices';
+@import 'pages/doctors';
+@import 'pages/doctor';
+@import 'pages/realestates';
+@import 'pages/singleRealestate';
+@import 'pages/professions';
+@import 'pages/singleProfession';
+
+@import 'pages/partner';
+@import 'pages/partnerRegister';
+
+@import 'pages/profile';
+
+
+// 7. Themes
+@import 'themes/default';
+
